@@ -4,20 +4,44 @@
     <title>GameHub</title>
     <meta name="description" content="Gamehub Home Page">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="styles\styles.css" rel="stylesheet">
   </head>
   <body>
     <header>
-      <a href="index.html">
-      <img src="images/GameHub_Logo.png" alt="Logo for Gamehub">
-      </a>
+      <div class="homebutton">
+        <a href="index.html">
+          <span class="material-icons">home</span>
+        </a>
+      </div>
+      <div id="headerlogo">
+        <a href="index.html">
+          <img src="images/GameHub_Logo.png" alt="Logo for Gamehub" width="159px" height="100px">
+        </a>
+      </div>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="createaccount.html">Create Account</a></li>
-          <li><a href="account.html">Account</a></li>
-          <li><a href="search.html">Search</a></li>
-          <li><a href="checkout.html">Checkout</a></li>
+          <li><a href="login.html">
+              <button class="loginbutton">Login</button>
+              </a>
+          </li>
+          <li><a href="createaccount.html">
+              <button class="registerbutton">Register</button>
+              </a>
+          </li>
+          <li><a href="account.html">
+              <span class="material-icons">account_circle</span>
+              </a>
+          </li>
+          <li><input type="text" name="search"><a href="search.html">
+              <span class="material-icons">search</span>
+              </a>
+          </li>
+          <li><a href="checkout.html">
+              <span class="material-icons">shopping_cart</span>
+              </a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -25,38 +49,46 @@
       <section>
         <h1>THE UNIVERSE OF GAMES</h1>
         <h2>Choose your platform</h2>
-          <nav>
+        <div class="platformmenu">
             <ul>
               <li>
                 <a href="games.html">
-                  <img src="images/ps5.png" alt="Playstation">
+                  <img src="images/ps5.png" alt="Playstation" width="300px" height="300px">
                 </a>
               </li>
               <li>
                 <a href="games.html">
-                  <img src="images/switch.png" alt="Nintendo">
+                  <img src="images/switch.png" alt="Nintendo" width="300px" height="300px">
                 </a>
               </li>
             <li>
               <a href="games.html">
-                <img src="images/xbox.png" alt="Xbox">
+                <img src="images/xbox.png" alt="Xbox" width="300px" height="300px">
               </a>
             </li>
             </ul>
-          </nav>
+        </div>
         <h3>Used Games Market</h3>
-        <nav>
+        <div class="usedgamesmarket">  
           <ul>
-            <li>Browse</li>
-            <li>Sell</li>
+            <li>
+              <button class="browseused">Browse</button>
+            </li>
+            <li>
+              <button class="sellused">Sell</button>
+            </li>
           </ul>
-        </nav>
+        </div>  
       </section>  
     </main>
     <footer>
       <p>Copyright Gamehub</p>
         <ul>
-          <li>Contact Us</li>
+          <li>
+            <a href="contact.html">
+              <span class="material-icons">email</span>
+            </a>
+          </li>
           <li>F.A.Q</li>
           <li>Payment Information</li>
           <li>About Us</li>

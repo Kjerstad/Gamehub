@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #969696;
+  height: 100px;
+  margin-bottom: 25px;
+}
+header li,
+.homebutton {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 20px;
+}
+.loginbutton,
+.registerbutton {
+  border-style: solid;
+  height: 55px;
+  width: 150px;
+  border-radius: 32px;
+  background-color: #1d2540;
+  font-family: "Source Code Pro", monospace;
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+}
+body {
+  background-image: url(../images/GameHub_background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+h1 {
+  display: block;
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  font-size: 55px;
+  color: black;
+  font-weight: 600;
+}
+h2,
+h3 {
+  display: block;
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  font-size: 37px;
+  color: black;
+  font-weight: 600;
+}
+p {
+  font-family: "Source Code Pro", monospace;
+  font-size: 22px;
+  color: black;
+  font-weight: 400;
+}
+.platformmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.platformmenu img {
+  border-radius: 28px;
+  border: #1d2540;
+  border-style: solid;
+  border-width: 4px;
+}
+.platformmenu li {
+  display: inline-block;
+  margin: 10px;
+}
+.usedgamesmarket {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.usedgamesmarket li {
+  display: inline-block;
+}
+.browseused,
+.sellused {
+  width: 300px;
+  height: 130px;
+  border-radius: 75px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 37px;
+  font-weight: 600;
+  color: white;
+}
+.browseused {
+  background-color: #1d2540;
+}
+.sellused {
+  background-color: #e60012;
+}
+.material-icons {
+  color: black;
+  font-size: 55px;
+}
+h2 {
+  margin-top: 20px;
+}
+footer {
+  background-color: #969696;
+  height: 50px;
+}
+footer li {
+  display: inline-block;
+}
