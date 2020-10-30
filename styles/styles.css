@@ -10,24 +10,20 @@ header {
   height: 100px;
   margin-bottom: 25px;
 }
-header ul {
-  display: inline-flex;
-}
-header li,
-.homebutton {
-  padding: 5px;
-  margin-top: 20px;
+header li {
+  justify-content: flex-end;
   list-style-type: none;
+  display: inline-flex;
 }
 .loginbutton,
 .registerbutton {
   border-style: solid;
-  height: 55px;
-  width: 150px;
+  height: 50px;
+  width: 100px;
   border-radius: 32px;
   background-color: #1d2540;
   font-family: "Source Code Pro", monospace;
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 600;
   color: white;
 }
@@ -105,7 +101,7 @@ p {
 }
 .material-icons {
   color: black;
-  font-size: 55px;
+  font-size: 50px;
 }
 h2 {
   margin-top: 20px;
@@ -114,6 +110,9 @@ footer {
   background-color: #969696;
   height: 50px;
 }
-footer li {
-  display: inline-block;
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  align-content: center;
 }
