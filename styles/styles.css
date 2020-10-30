@@ -18,6 +18,14 @@ header li {
   margin-top: 20px;
   list-style-type: none;
 }
+.headersearch {
+  float: left;
+  border: currentColor;
+  border-radius: 4px;
+  height: 25px;
+  width: 100px;
+  margin-top: 10px;
+}
 .loginbutton,
 .registerbutton {
   border-style: solid;
