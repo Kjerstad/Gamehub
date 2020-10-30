@@ -10,11 +10,14 @@ header {
   height: 100px;
   margin-bottom: 25px;
 }
+header ul {
+  display: inline-flex;
+}
 header li,
 .homebutton {
-  display: inline-block;
   padding: 5px;
   margin-top: 20px;
+  list-style-type: none;
 }
 .loginbutton,
 .registerbutton {
