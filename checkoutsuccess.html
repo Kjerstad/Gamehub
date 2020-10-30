@@ -10,22 +10,31 @@
   </head>
   <body>
     <header>
-      <a href="index.html">
-      <img src="images/GameHub_Logo.png" alt="Logo for Gamehub" width="159px" height="100px">
-      </a>
+      <div class="homebutton">
+        <a href="index.html">
+          <span class="material-icons">home</span>
+        </a>
+      </div>
+      <div id="headerlogo">
+        <a href="index.html">
+          <img src="images/GameHub_Logo.png" alt="Logo for Gamehub" width="159px" height="100px">
+        </a>
+      </div>
       <nav>
         <ul>
-          <li><a href="index.html">
-              <span class="material-icons">home</span>
+          <li><a href="login.html">
+              <button class="loginbutton">Login</button>
               </a>
           </li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="createaccount.html">Register</a></li>
+          <li><a href="createaccount.html">
+              <button class="registerbutton">Register</button>
+              </a>
+          </li>
           <li><a href="account.html">
               <span class="material-icons">account_circle</span>
               </a>
           </li>
-          <li><input type="search"><a href="search.html">
+          <li><input type="text" name="search"><a href="search.html">
               <span class="material-icons">search</span>
               </a>
           </li>
@@ -44,11 +53,7 @@
     <footer>
       <p>Copyright Gamehub</p>
       <ul>
-        <li>
-          <a href="contact.html">
-            <span class="material-icons">email</span>
-          </a>
-        </li>
+        <li><a href="contact.html">Contact Us</a></li>
         <li>F.A.Q</li>
         <li>Payment Information</li>
         <li>About Us</li>
