@@ -17,6 +17,7 @@ header li {
   padding: 5px;
   margin-top: 20px;
   list-style-type: none;
+  margin-right: 10px;
 }
 .headersearch {
   float: left;
