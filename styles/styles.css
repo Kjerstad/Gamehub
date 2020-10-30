@@ -13,8 +13,7 @@ header {
 header ul {
   display: inline-flex;
 }
-header li,
-.homebutton {
+header li {
   padding: 5px;
   margin-top: 20px;
   list-style-type: none;
@@ -108,7 +107,7 @@ p {
   background-color: #e60012;
 }
 .material-icons {
-  color: black;
+  color: #1d2540;
   font-size: 50px;
 }
 h2 {
