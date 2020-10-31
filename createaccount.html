@@ -46,30 +46,48 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h1>Register an account</h1>
-      </section> 
-      <section>
-        <fieldset class="accountinformation">
-          <legend>Account Information</legend>
-          <input type="text" name="Username">
-          <input type="text" name="Password">
-          <input type="text" name="Repeat Password">
-          <input type="text" name="Email">
-          <input type="text" name="Repeat Email">
-        </fieldset>
-        <fieldset class="personalinformation">
-          <legend>Personal Information</legend>
-          <input type="text" name="First name">
-          <input type="text" name="Last name">
-          <input type="text" name="Date of birth">
-        </fieldset>
-        <fieldset class="Shipping Information">
-          <input type="text" name="Address">
-          <input type="text" name="Zip Code">
-          <input type="text" name="Country">
-        </fieldset>
-      </section> 
+      <h1 id="createanaccount">Register an account</h1>
+      <section class="createaccountinfo">
+        <h2 id="acctinfo">Account Information</h2>
+        <div class="accountinformation">
+          <label for="username">Username:</label>
+          <input type="text" name="username" placeholder="Username">
+          <label for="password">Password:</label>
+          <input type="password" name="password" placeholder="Password">
+          <label for="repeatpassword">Repeat Password:</label>
+          <input type="password" name="repeatpassword" placeholder="Repeat password..">
+          <label for="email">Email:</label>
+          <input type="email" name="email" placeholder="Email..">
+          <label for="repeatemail">Repeat Email:</label>
+          <input type="email" name="repeatemail" placeholder="Repeat email..">
+        </div>
+        <h2>Personal Information</h2>
+        <div class="personalinformation">
+          <label for="firstname">First Name:</label>
+          <input type="text" name="firstname" placeholder="First name..">
+          <label for="lastname">Last Name:</label>
+          <input type="text" name="lastname" placeholder="Last name..">
+          <label for="dateofbirth">Date of Birth:</label>
+          <input type="date" name="dateofbirth">
+        </div>
+        <h2>Shipping Information</h2>
+        <div class="shippinginformation">
+          <label for="address">Address:</label>
+          <input type="text" name="address" placeholder="Address..">
+          <label for="zipcode">Zip Code:</label>
+          <input type="number" name="zipcode" placeholder="Zip code..">
+          <label for="country">Country:</label>
+          <select name="country" form="country">
+            <option value="norway">Norway</option>
+            <option value="sweden">Sweden</option>
+            <option value="denmark">Denmark</option>
+            <option value="england">England</option>
+          </select>
+        </div>
+        <div class="createaccbtn">
+          <button id="createaccbtn" type="submit">Create Account</button>
+        </div>
+      </section>
     </main>
     <footer>
       <p>Copyright Gamehub</p>

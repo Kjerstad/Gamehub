@@ -152,7 +152,8 @@ footer p {
   margin: 0 auto;
 }
 #title,
-#productname {
+#productname,
+#createanaccount {
   background-color: rgba(27, 32, 61, 0.68);
   margin-left: 10%;
   margin-right: 10%;
@@ -185,6 +186,7 @@ footer p {
 }
 .browserproduct a {
   text-decoration: none;
+  color: #030a8c;
 }
 .browserproduct img {
   height: 250px;
@@ -196,13 +198,14 @@ footer p {
   margin: 0 auto;
 }
 .productbox {
-  background-color: rgba(150, 150, 150, 0.2);
+  background-color: rgba(150, 150, 150, 0.3);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   min-width: 65%;
   max-width: 65%;
   margin: 0 auto;
   text-align: center;
+  box-shadow: 0px 7.5px 15px rgba(0, 0, 0, 0.2);
 }
 .productbox img {
   height: 534px;
@@ -216,17 +219,31 @@ footer p {
   max-width: 65%;
   min-width: 65%;
   margin: 0 auto;
+  margin-top: 10px;
 }
 .productboxinput h2 {
   text-decoration-line: underline;
+  margin-top: 0;
 }
 .wishlistbtn,
-.addtocartbtn {
+.addtocartbtn,
+#createaccbtn {
   height: 50px;
   width: 200px;
   border-radius: 28px;
   font-size: 24px;
   font-weight: 600;
+  color: white;
+  border-style: solid;
+  border-width: 4px;
+}
+.wishlistbtn {
+  background-color: #969696;
+  border-color: #1d2540;
+}
+.addtocartbtn {
+  background-color: #008000;
+  border-color: #969696;
 }
 .productinfo {
   text-align: center;
@@ -235,4 +252,38 @@ footer p {
 }
 .productinfo p {
   font-weight: 600;
+}
+.createaccountinfo {
+  background-color: rgba(150, 150, 150, 0.3);
+  min-width: 70%;
+  max-width: 70%;
+  margin: 0 auto;
+  box-shadow: 0px 7.5px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 0;
+}
+#acctinfo {
+  margin-top: 0;
+}
+.createaccountinfo label {
+  font-weight: 600;
+}
+.accountinformation,
+.personalinformation,
+.shippinginformation {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.createaccbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#createaccbtn {
+  font-size: 20px;
+  background-color: #030a8c;
+  border-style: solid;
+  margin-bottom: 20px;
 }
