@@ -296,7 +296,7 @@ footer p {
 }
 #createaccbtn {
   font-size: 20px;
-  background-color: #030a8c;
+  background-color: #1d2540;
   border-style: solid;
   margin-bottom: 20px;
 }
@@ -317,7 +317,7 @@ footer p {
   padding: 10px;
   font-size: 20px;
   color: white;
-  border: 4px #030a8c;
+  border: 4px #1d2540;
   width: 35%;
   background-color: #969696;
 }
@@ -327,6 +327,7 @@ footer p {
 .searchpagebar button {
   background-color: #969696;
   border: none;
+  height: 100%;
 }
 #settings {
   min-width: 60%;
@@ -428,6 +429,25 @@ footer p {
   margin-left: auto;
 }
 #placeorderbtn {
-  background-color: #030a8c;
+  background-color: #1d2540;
   border-color: #008000;
+}
+#success,
+#submitted,
+#receipt {
+  color: #1d2540;
+}
+#success {
+  margin-top: 200px;
+  font-size: 100px;
+}
+#submitted,
+#receipt {
+  font-size: 55px;
+}
+#submitted {
+  margin-top: 100px;
+}
+#receipt {
+  margin-top: 50px;
 }
