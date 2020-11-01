@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>GameHub</title>
-    <meta name="description" content="Gamehub Home Page">
+    <title>GameHub|My account</title>
+    <meta name="description" content="My Account">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -46,51 +46,34 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h1>THE UNIVERSE OF GAMES</h1>
-        <h2>Choose your platform:</h2>
-        <div class="platformmenu">
-            <ul>
-              <li>
-                <a href="games.html">
-                  <img src="images/ps5.png" alt="Playstation" width="300px" height="300px">
-                </a>
-              </li>
-              <li>
-                <a href="games.html">
-                  <img src="images/switch.png" alt="Nintendo" width="300px" height="300px">
-                </a>
-              </li>
-            <li>
-              <a href="games.html">
-                <img src="images/xbox.png" alt="Xbox" width="300px" height="300px">
-              </a>
-            </li>
-            </ul>
-        </div>
-        <h3>Used Games Market</h3>
-        <div class="usedgamesmarket">  
-          <ul>
-            <li>
-              <button class="browseused">Browse</button>
-            </li>
-            <li>
-              <a href="sellgames.html">
-                <button class="sellused">Sell</button>
-              </a>
-            </li>
-          </ul>
-        </div>  
+      <h1 id="sellgames">Create a listing</h1>
+      <section class="addsale">
+          <div class="sellgame">
+              <img src="/images/Assetto.jpg" id="sellgamepic" alt="Add a picture of your game">
+              <label for="gamename">Title</label>
+              <input type="text" name="gamename" id="sellgamename" title="used game name" placeholder="Game Name">
+              <label for="gameprice">Price</label>
+              <input type="number" name="gameprice" id="sellgameprice" title="used game price" placeholder="$">
+              <label for="gameplatform">Platform</label>
+              <select>
+                  <option value="PS4">Playstation 4</option>
+                  <option value="Xbone">Xbox One</option>
+                  <option value="Switch">Nintendo Switch</option>
+              </select>
+          <div class="sellgamebtn">
+              <button id="sellgamebutton" type="submit">Add for sale</button>
+          </div>
+          </div>
       </section>  
     </main>
-    </body>
     <footer>
       <p>Copyright Gamehub</p>
-        <ul>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li>F.A.Q</li>
-          <li>Payment Information</li>
-          <li>About Us</li>
-        </ul>
+      <ul>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li>F.A.Q</li>
+        <li>Payment Information</li>
+        <li>About Us</li>
+      </ul>
     </footer>
+  </body>
 </html>

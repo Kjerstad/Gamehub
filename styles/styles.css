@@ -158,7 +158,8 @@ footer p {
 #userpage,
 #checkouth1,
 #contactus,
-#login {
+#login,
+#sellgames {
   background-color: rgba(27, 32, 61, 0.68);
   margin-left: 10%;
   margin-right: 10%;
@@ -244,7 +245,8 @@ footer p {
 #createaccbtn,
 #sellbtn,
 #placeorderbtn,
-#loginbtn {
+#loginbtn,
+#sellgamebutton {
   height: 50px;
   width: 200px;
   border-radius: 28px;
@@ -270,7 +272,8 @@ footer p {
 .productinfo p {
   font-weight: 600;
 }
-.createaccountinfo {
+.createaccountinfo,
+.addsale {
   background-color: rgba(150, 150, 150, 0.3);
   min-width: 70%;
   max-width: 70%;
@@ -343,7 +346,8 @@ footer p {
 .myaccount,
 .marketplace,
 .userpagesub,
-.loginpage {
+.loginpage,
+.addsale {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -407,7 +411,8 @@ footer p {
   margin-right: 10px;
 }
 .shoppingcart,
-.contactpage {
+.contactpage,
+.sellgame {
   min-width: 60%;
   max-width: 60%;
   margin: 0 auto;
@@ -526,4 +531,22 @@ footer p {
 #loginbtn {
   margin-top: 20px;
   background-color: #1d2540;
+}
+.sellgame {
+  margin-top: 30px;
+}
+.sellgame img {
+  height: 250px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sellgamebtn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+#sellgamebutton {
+  margin-top: 20px;
+  background-color: #e60012;
 }
