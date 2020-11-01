@@ -47,40 +47,102 @@
     </header>
     <main>
       <h1 id="userpage">User Page</h1>
+      <p id="settings">Settings</p>
+      <div class="userpagesub">
+        <h4>Account Details</h4>
+        <h4>Order History</h4>
+        <h4>Wishlist</h4>
+      </div>
       <section class="myaccount">
         <div class="accdetails">
-          <table>
-            <caption>Account Details</caption>
-            <tr>
-              <th>Username:</th>
-              <td>Test</td>
-            </tr>
-            <tr>
-              <th>First Name:</th>
-              <td>Test</td>
-            </tr>
-            <tr>
-              <th>Last Name:</th>
-              <td>Testy</td>
-            </tr>
-            <tr>
-              <th>Address:</th>
-              <td>Testroad 3</td>
-            </tr>
-            <tr>
-              <th>Zip Code:</th>
-              <td>1234</td>
-            </tr>
-            <tr>
-              <th>Country:</th>
-              <td>Norway</td>
-            </tr>
-          </table>
+          <ul>
+            <li>Username: Test</li>
+            <li>First Name: Test</li>
+            <li>Last Name: Testy</li>
+            <li>Address: Testroad 3</li>
+            <li>Zip Code: 1234</li>
+            <li>Country: Norway</li>
+          </ul>
+          <p>View all</p>
         </div>
         <div class="orderhistory">
-          <table>
-            <caption>Order History</caption>
-          </table>
+          <ul id="itemlist">
+            <li id="tablehead">Order #</li>
+            <li>#1234</li>
+            <li>#1234</li>
+            <li>#1234</li>
+            <li>#1234</li>
+          </ul>
+          <ul>
+            <li id="tablehead">Price</li>
+            <li>$13.37</li>
+            <li>$13.37</li>
+            <li>$13.37</li>
+            <li>$13.37</li>
+          </ul>
+          <p>View all</p>
+        </div>
+        <div class="wishlist">
+          <ul id="itemlist">
+            <li id="tablehead">Product</li>
+            <li>
+              <a href="product.html">Assetto</a>
+            </li>
+            <li>
+              <a href="product.html">Assetto</a>
+            </li>
+          </ul>
+          <ul>
+            <li id="tablehead">Price</li>
+            <li>$13.37</li>
+            <li>$13.37</li>
+          </ul>
+          <p>View all</p>
+        </div>
+      </section>
+      <h2 id="marketplace">Marketplace</h2>
+      <div class="userpagesub">
+        <h4>Completed Listings</h4>
+        <h4>Your Active Listings</h4>
+        <h4>Sell your games!</h4>
+      </div>
+      <section class="marketplace">
+        <div class="completelistings">
+          <ul id="itemlist">
+            <li id="tablehead">Product</li>
+            <li>
+              <a href="product.html">Assetto</a>
+            </li>
+            <li>
+              <a href="product.html">Assetto</a>
+            </li>
+          </ul>
+          <ul>
+            <li id="tablehead">Price</li>
+            <li>$13.37</li>
+            <li>$13.37</li>
+          </ul>
+          <p>View all</p>
+        </div>
+        <div class="activelistings">
+          <ul id="itemlist">
+            <li id="tablehead">Product</li>
+            <li>
+              <a href="product.html">Assetto</a>
+            </li>
+            <li>
+              <a href="product.html">Assetto</a>
+            </li>
+          </ul>
+          <ul>
+            <li id="tablehead">Price</li>
+            <li>$13.37</li>
+            <li>$13.37</li>
+          </ul>
+          <p>View all</p>
+        </div>
+        <div class="newlisting">
+          <button type="submit" name="sell" id="sellbtn">SELL</button>
         </div>
       </section>  
     </main>
