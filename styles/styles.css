@@ -367,7 +367,9 @@ footer p {
   height: 250px;
 }
 #itemlist1,
-#itemlist2 {
+#itemlist2,
+#itemlist3,
+#itemlist4 {
   border-right: 2px solid #9e9e9e;
 }
 .accdetails li,
@@ -394,7 +396,11 @@ footer p {
 #tablehead1,
 #tablehead2,
 #tablehead3,
-#tablehead4 {
+#tablehead4,
+#tablehead5,
+#tablehead6,
+#tablehead7,
+#tablehead8 {
   border-bottom: 2px solid #9e9e9e;
   margin-block-start: 5px;
   margin-left: 10px;
