@@ -46,8 +46,58 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h1 id="checkouth1">Checkout</h1>
+      <h1 id="checkouth1">Checkout</h1>
+      <section class="shoppingcart">
+        <div>
+          <table id="cart">
+            <tr id=tablerow1>
+              <th id="qty">Qty</th>
+              <th>Product Name</th>
+              <th>Cost</th>
+            </tr>
+            <tr id="tablerow2">
+              <th id="qty">1</th>
+              <td>
+                <a href="product.html">Assetto Corsa (PS4)</a>
+              </td>
+              <th>$13.37</th>
+            </tr>
+            <tr id="tablerow3">
+              <th id="qty">1</th>
+              <td>
+                <a href="product.html">Assetto Corsa (PS4)</a>
+              </td>
+              <th>$13.37</th>
+            </tr>
+          </table>
+        </div>
+        <div class="cost">
+          <p>Subtotal: $26.74</p>
+          <p>Shipping Cost: $13.37</p>
+          <p>Total Cost: $40.11</p>
+        </div>
+        <div class="shippinginfo">
+          <label for="shippingaddress">Address:</label>
+          <input name="shippingaddress" type="text" placeholder="Address..">
+          <label for="shippingzip">Zip Code:</label>
+          <input name="shippingzip" type="number" placeholder="6020">
+          <label for="shippingcountry">Country:</label>
+          <select name="country" form="country">
+            <option value="norway">Norway</option>
+            <option value="sweden">Sweden</option>
+            <option value="denmark">Denmark</option>
+            <option value="england">England</option>
+          </select>
+        </div>
+        <div>
+          <label for="useaccountshipping">Use Shipping Information linked to account</label>
+          <input type="checkbox">
+        </div>
+        <div class="placeorder">
+          <a href="checkoutsuccess.html">
+            <button type="submit" id="placeorderbtn">Place Order</button>
+          </a>
+        </div>
       </section>  
     </main>
     <footer>

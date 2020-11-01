@@ -239,7 +239,8 @@ footer p {
 .wishlistbtn,
 .addtocartbtn,
 #createaccbtn,
-#sellbtn {
+#sellbtn,
+#placeorderbtn {
   height: 50px;
   width: 200px;
   border-radius: 28px;
@@ -385,4 +386,48 @@ footer p {
   margin-block-start: 5px;
   margin-left: 10px;
   margin-right: 10px;
+}
+.shoppingcart {
+  min-width: 60%;
+  max-width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#cart {
+  width: 100%;
+  background-color: rgba(150, 150, 150, 0.3);
+}
+#cart tr {
+  height: 60px;
+  width: 20%;
+}
+#cart tr,
+#cart th,
+#cart td {
+  border: 1px solid #9e9e9e;
+  border-collapse: collapse;
+  justify-content: space-between;
+  vertical-align: middle;
+  text-align: center;
+}
+.cost {
+  margin-top: 10px;
+  text-align: end;
+}
+.shippinginfo {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+#shipcheck {
+  size: 10px;
+}
+.placeorder {
+  margin-left: auto;
+}
+#placeorderbtn {
+  background-color: #030a8c;
+  border-color: #008000;
 }
