@@ -155,7 +155,8 @@ footer p {
 #title,
 #productname,
 #createanaccount,
-#userpage {
+#userpage,
+#checkouth1 {
   background-color: rgba(27, 32, 61, 0.68);
   margin-left: 10%;
   margin-right: 10%;
