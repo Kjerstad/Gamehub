@@ -156,7 +156,8 @@ footer p {
 #productname,
 #createanaccount,
 #userpage,
-#checkouth1 {
+#checkouth1,
+#contactus {
   background-color: rgba(27, 32, 61, 0.68);
   margin-left: 10%;
   margin-right: 10%;
@@ -194,7 +195,8 @@ footer p {
 .searchproduct a,
 .myaccount p,
 #settings,
-.marketplace p {
+.marketplace p,
+#emaillink a {
   text-decoration: none;
   color: #030a8c;
 }
@@ -388,7 +390,8 @@ footer p {
   margin-left: 10px;
   margin-right: 10px;
 }
-.shoppingcart {
+.shoppingcart,
+.contactpage {
   min-width: 60%;
   max-width: 60%;
   margin: 0 auto;
@@ -450,4 +453,33 @@ footer p {
 }
 #receipt {
   margin-top: 50px;
+}
+.contactpage {
+  background-color: rgba(150, 150, 150, 0.3);
+  height: 500px;
+}
+.contactpageinfo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.contactpageinfo h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#emaillink,
+#phone,
+.openinghours {
+  margin-left: 100px;
+}
+#emaillink,
+#phone {
+  margin-bottom: 40px;
+}
+.openinghours {
+  margin-bottom: 50px;
+}
+.openinghours p {
+  margin-top: 10px;
 }
